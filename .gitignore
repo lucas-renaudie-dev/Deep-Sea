@@ -1,0 +1,80 @@
+# ==========================================
+# Blender
+# ==========================================
+
+# Blender backup files
+*.blend1
+*.blend2
+*.blend3
+*.blend@
+
+# Temporary files
+*.tmp
+
+# Autosave files (if present)
+*.blend~
+
+# ==========================================
+# Blender caches
+# ==========================================
+
+# Simulation caches
+cache/
+**/cache/
+blendcache*/
+**/blendcache*/
+
+# Physics / simulation cache files
+*.bphys
+
+# ==========================================
+# Renders
+# ==========================================
+
+renders/
+render/
+output/
+frames/
+
+# Common rendered image/video formats
+*.exr
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+*.mov
+*.mp4
+*.avi
+
+# If you WANT to version final renders,
+# comment out the lines above.
+
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.pyc
+
+# ==========================================
+# Operating system
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# IDE
+# ==========================================
+
+.vscode/
+.idea/
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
