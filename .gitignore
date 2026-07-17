@@ -37,7 +37,6 @@ output/
 frames/
 
 # Common rendered image/video formats
-*.exr
 *.png
 *.jpg
 *.jpeg
